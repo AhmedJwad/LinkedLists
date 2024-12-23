@@ -15,7 +15,7 @@ namespace LinkedLists.Logic
         {
                 _first = null;
         }
-        public bool IsEmpty=> _first != null;
+        public bool IsEmpty=> _first == null;
 
         public override  string ToString()
         {
